@@ -11,7 +11,7 @@ public class SpringbootAzureDemoApplication {
 	
 	@GetMapping("/greet")
 	public String greet() {
-		return "Congratulations! Greetings from Azure Platform";
+		return "Congratulations! Hey, Greetings from Azure Platform";
 	}
 
 	public static void main(String[] args) {
